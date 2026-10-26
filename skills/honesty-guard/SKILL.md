@@ -1,6 +1,6 @@
 ---
 name: honesty-guard
-description: Never fabricate a fact about the applicant, keep numbers consistent across every document. Use during drafting, /truth, and before any submission.
+description: Never fabricate a fact about the applicant, keep numbers consistent across every document. Use during drafting, when reviewing a draft, and before any submission.
 ---
 
 # Honesty guard
@@ -33,7 +33,7 @@ think when that happened]`.
 The same claim appears on the resume, in four essays, and in the interview. **If it
 grows between documents, that is what gets caught.**
 
-Run this check as part of `/truth`:
+Run this check whenever a draft is reviewed:
 
 1. Pull every number, title, and date from `you/PROFILE.md`, the resume in
    `you/uploads/`, and every file in `drafts/`.

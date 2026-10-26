@@ -1,6 +1,6 @@
 ---
 name: reader-pov
-description: Read a finished application packet as the human who actually receives it, not as a rules checker. Use for /reader, and before any final submission.
+description: Read a finished application packet as the human who actually receives it, not as a rules checker. Use when they want a full read-through, and before any final submission.
 ---
 
 # Reading as the reader
