@@ -25,7 +25,7 @@ Word each question so "yes" accepts your pick.
 
 Each round the user answers reshapes the tree: settled decisions push the frontier outward and unblock questions that depended on them. Recompute the frontier and ask the next round. A question whose answer depends on another question still open in this round belongs to a _later_ round, not this one.
 
-Finding _facts_ is your job, never theirs. When a frontier question needs a fact from the environment (files in `you/` and `work/`), look it up or send a subagent; never ask them something you could find. Don't block on it: only the questions downstream of a running lookup wait. The _decisions_ are his: put each one to them and wait.
+Finding _facts_ is your job, never theirs. When a frontier question needs a fact from the environment (files in `you/` and `work/`), look it up or send a subagent; never ask them something you could find. Don't block on it: only the questions downstream of a running lookup wait. The _decisions_ are theirs: put each one to them and wait.
 
 The session is done when the frontier is empty: every branch visited, nothing left silently assumed. Don't act on it until they confirm you've reached a shared understanding.
 
