@@ -10,7 +10,7 @@
 #
 # Reads markdown table rows containing a YYYY-MM-DD in work/SCHOOLS.md and
 # you/LIFE.md. The first cell is the label. Rows whose last cell says done, yes
-# or x are skipped. work/PLAN.md is a schedule, not deadlines: tools/today.sh reads it.
+# or x are skipped.
 #
 # Exit 1 if anything is overdue or due within 48 hours, so it can gate a session.
 #

@@ -35,8 +35,8 @@ grows between documents, that is what gets caught.**
 
 Run this check whenever a draft is reviewed:
 
-1. Pull every number, title, and date from `you/PROFILE.md`, the resume in
-   `you/uploads/`, and every file in `drafts/`.
+1. Pull every number, title, and date from `you/PROFILE.md`, any resume or
+   activities list they've shared, and every file in `work/essays/` and `work/pieces/`.
 2. Group by claim.
 3. Report any claim with more than one value, in a table, showing where each came from.
 4. Ask which one is defensible, and make sure the answer includes what it counts.

@@ -44,7 +44,7 @@ Twenty minutes, once a week, four questions. It works because it is short.
    as a surprise in three weeks.
 4. **What is the one thing next week that everything else can slip for?**
 
-Then update `you/LIFE.md`, `work/PLAN.md` and `PROGRESS.md`.
+Then update `you/LIFE.md`, `work/LOOPS.md` and `PROGRESS.md`.
 A review that changes no file was a nice conversation.
 
 ## Life admin has deadlines too

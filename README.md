@@ -10,14 +10,49 @@ Made for people who've never coded. You need three things, and none of them invo
 
 ## Set it up (about 10 minutes)
 
-1. Get the app you'll use.
-   - Claude: download the Claude desktop app from https://claude.ai/download and sign in. You'll use the **Code** tab.
-   - Codex: download the ChatGPT app from https://learn.chatgpt.com/docs/app and sign in. You'll use **Codex** inside it.
-2. Get this folder. On this page, click the green **Code** button, then **Download ZIP**. Unzip it. You'll get a folder called `college-app-kit-main`. Move it somewhere you'll find it, like Documents, and rename it anything you want.
-3. Open the folder in your app. In Claude's Code tab or in Codex, choose that folder as the folder to work in.
-4. Type **set me up** and send it.
+### Pick the right app and tab first
 
-It interviews you one question at a time: your schools, your deadlines, how many hours you really have, how you get stuck. Then it reads each school's own website for the requirements and dates, and saves everything to a **private** GitHub repo so nothing is lost. When it needs you (a browser sign-in, your computer password), it says exactly what to do.
+- **Claude:** download the Claude desktop app from https://claude.ai/download and
+  sign in. Click the `</>` icon at the top left to switch to the **Code** tab. The
+  regular Chat tab can't touch the files on your computer, so it can't set this up,
+  and it'll tell you to link GitHub in Settings, Connectors. You don't need that.
+- **Codex:** download the ChatGPT app from https://learn.chatgpt.com/docs/app and
+  sign in. Use **Codex** inside it, not a regular ChatGPT chat, for the same reason.
+
+### Paste one message
+
+In the Code tab (or Codex), choose your **Documents** folder as the folder to work
+in, then paste this and send it:
+
+```
+Set up my college application coach from https://github.com/calebnewtonusc/college-app-kit.
+Download it into a new folder called college-app-kit inside this folder. It's a
+public repo, so use curl or the ZIP link and don't ask me to sign in to GitHub for
+this part. Then read its AGENTS.md and plays/setup.md and run the setup with me.
+Do every computer step yourself. Before anything that opens a window or needs me
+(a GitHub sign-in in my browser, an installer window, a password), tell me first
+and warn me it might open behind this app. At the end, tell me to open the
+college-app-kit folder itself from now on.
+```
+
+It interviews you one question at a time: your schools, your deadlines, how many hours you really have, how you get stuck. Then it reads each school's own website for the requirements and dates, and saves everything to a **private** GitHub repo so nothing is lost.
+
+It stops for you in two places, and each one can open a window behind the app. If
+nothing seems to happen, look for it (Command-Tab on a Mac, Alt-Tab on Windows):
+
+- **GitHub sign-in.** Your web browser opens to GitHub and asks for a code like
+  `ABCD-1234` that the coach shows you. If the browser isn't signed in to GitHub,
+  it'll ask you to sign in first, then the code page comes next. Paste the code
+  and click Authorize.
+- **An installer window**, only if your computer is missing a tool. On a Mac it's
+  Apple's Command Line Tools: click Install and wait. On Windows it's a "Do you want
+  to allow this app" box: click Yes.
+
+Rather do it by hand? On this page, click the green **Code** button, then **Download ZIP**, unzip it, open the `college-app-kit-main` folder in the Code tab or Codex, and type **set me up**.
+
+**If you're one of the first people through:** at the end, tell the coach "write a
+PDF to my Downloads folder listing every snag I hit setting this up, in order, with
+what fixed each one" and send it to Caleb.
 
 After that, open the folder any day and say **what do I do today**.
 
